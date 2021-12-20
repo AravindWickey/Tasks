@@ -1,0 +1,75 @@
+body{
+    background: url("./Background.jpg");
+    background-size:cover;
+    background-position:center center;
+    height: 100vh;
+}
+
+#main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+
+#bottom-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25%;
+
+}
+li{
+    display: inline;
+}
+
+#one{
+    font-weight: bold;
+      color: white;
+      font-family: system-ui; 
+      font-size: 25px;
+}
+
+#center-button{
+    background-color: transparent;
+    border: none;
+    
+    color: white;
+}
+#center-div{
+    color: white;
+}
+#bottom-div{
+    color: white;
+}
+#free-trial-button{
+    display: inline;
+    background-color: #f83764 ;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    
+}
+
+#final-journey{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 10px ;
+}
+
+#profile{
+    background-color: #2087e7;
+    font-weight: bold;
+    color: white;
+
+}
+
+#get-app{
+    background-color: #5aa45f
+    ;
+}
+
