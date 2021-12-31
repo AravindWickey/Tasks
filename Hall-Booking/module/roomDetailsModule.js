@@ -12,12 +12,3 @@ module.exports.getroomDetails = async(req,res,next)=>{
     }
 }
 
-module.exports.createCustomer = async(req,res,next)=>{
-    try{
-        var data = await mongo.db.collection("roomDetails").find().toArray();
-        res.send(data);
-    }catch(err){
-        console.log(err);
-        res.status(500).send(err);
-    }
-}
